@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Serif", serif;
+}
+
+body{
+    background-color: #222222;
+}
+
+.form{
+    width: 70%;
+    background-color: #222222;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+    margin: 50px auto;
+}
+
+.form-head{
+    height: 50px;
+    background-color: #65DAFF;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.btn-back{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn-back:hover{
+    background-color: gray;
+    
+}
+
+.btn-back:active{
+    background-color: black;
+    color: white;
+}
+
+.form-body{
+    padding: 30px;
+    color: white;
+}
+
+.fname,.fsurname{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 20px;
+    width: 100%;
+    color: white;
+    outline: none;
+}
+
+.input-wrapper{
+    margin: 30px 0;
+}
+
+.male-radio{
+    margin-right: 10px;
+}
+
+.female-radio{
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.age{
+    margin-right: 10px;
+}
+
+.gender{
+    margin-top: 20px;
+}
+
+.comment{
+    display: block;
+    width: 100%;
+    min-height: 200px;
+    height: 200px;
+    background: none;
+    border: 1px solid white;
+    resize: none;
+    outline: none;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+.submit{
+    display: block;
+    width: fit-content;
+    padding: 20px 80px;
+    margin: 30px auto;
+    border: none;
+    background: linear-gradient(45deg, #65DAFF, #70FFCB);
+    outline: none;
+    color: white;
+}
+
+.submit:hover{
+    background: linear-gradient(45deg, #347083, #388065);
+}
+
+.submit:active{
+    color: black;
+    background: white;
+}
+
+.nickname-field{
+    padding: 30px;
+}
